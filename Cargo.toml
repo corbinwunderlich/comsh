@@ -3,7 +3,9 @@ name = "comsh"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
-
 [lints.clippy]
 pedantic = { level = "deny", priority = -1 }
+
+[dependencies]
+logos = "0.16.1"
+thiserror = "2.0.20"
